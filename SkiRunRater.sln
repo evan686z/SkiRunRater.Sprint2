@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRunRater.Sprint2.Starter", "SkiRunRater.Sprint2.Starter\SkiRunRater.Sprint2.Starter.csproj", "{3A0B5BF1-B3B2-44D7-B699-48BE4D9D3D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRunRater.Sprint2.Solution", "SkiRunRater.Sprint2.Solution\SkiRunRater.Sprint2.Solution.csproj", "{F80AA9A5-D15F-4062-8355-E0954A4BB94D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0B5BF1-B3B2-44D7-B699-48BE4D9D3D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0B5BF1-B3B2-44D7-B699-48BE4D9D3D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0B5BF1-B3B2-44D7-B699-48BE4D9D3D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0B5BF1-B3B2-44D7-B699-48BE4D9D3D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80AA9A5-D15F-4062-8355-E0954A4BB94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80AA9A5-D15F-4062-8355-E0954A4BB94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80AA9A5-D15F-4062-8355-E0954A4BB94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80AA9A5-D15F-4062-8355-E0954A4BB94D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
