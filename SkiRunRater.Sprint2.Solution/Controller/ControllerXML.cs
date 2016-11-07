@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkiRunRater
+namespace SkiRunRater.Sprint2.Solution.Controller
 {
-    public class Controller
+    class ControllerXML
     {
         #region ENUMERABLES
 
@@ -26,7 +26,7 @@ namespace SkiRunRater
 
         #region CONSTRUCTORS
 
-        public Controller()
+        public ControllerXML()
         {
             ApplicationControl();
         }
@@ -37,7 +37,10 @@ namespace SkiRunRater
 
         private void ApplicationControl()
         {
+            //SkiRunRepositoryCSV skiRunRepository = new SkiRunRepositoryCSV();
             SkiRunRepositoryXML skiRunRepository = new SkiRunRepositoryXML();
+            //SkiRunRepositorJSON skiRunRepository = new SkiRunRepositorJSON();
+
 
             ConsoleView.DisplayWelcomeScreen();
 
@@ -129,4 +132,5 @@ namespace SkiRunRater
         #endregion
 
     }
+}
 }

@@ -11,11 +11,11 @@ namespace SkiRunRater
     /// <summary>
     /// method to write all ski run information to the date file
     /// </summary>
-    public class SkiRunRepository : IDisposable
+    public class SkiRunRepositoryCSV : IDisposable
     {
         private List<SkiRun> _skiRuns;
 
-        public SkiRunRepository()
+        public SkiRunRepositoryCSV()
         {
             _skiRuns = ReadSkiRunsData(DataSettings.dataFilePath);
         }

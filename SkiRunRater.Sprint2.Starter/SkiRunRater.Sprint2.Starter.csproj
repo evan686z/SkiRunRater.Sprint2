@@ -46,11 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Controller.cs" />
-    <Compile Include="DAL\SkiRunRepository.cs" />
+    <Compile Include="DAL\SkiRunRepositoryCSV.cs" />
+    <Compile Include="DAL\SkiRunRepositoryXML.cs" />
     <Compile Include="Data\DataSettings.cs" />
-    <Compile Include="Data\InitializeDataFile.cs" />
+    <Compile Include="Data\InitailizeDataFileXML.cs" />
+    <Compile Include="Data\InitializeDataFileCSV.cs" />
     <Compile Include="Models\AppEnum.cs" />
     <Compile Include="Models\SkiRun.cs" />
+    <Compile Include="Models\SkiRuns.cs" />
     <Compile Include="Program.cs">
       <SubType>
       </SubType>

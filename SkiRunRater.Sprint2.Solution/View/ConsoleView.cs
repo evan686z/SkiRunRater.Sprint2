@@ -459,6 +459,10 @@ namespace SkiRunRater
             Console.Write(messageLines[messageLines.Count() - 1]);
         }
 
+        public static void ChoosePersistenceType()
+        {
+
+        }
 
         #endregion
     }
